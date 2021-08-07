@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Assignment3</title>
+		
+		<script>
+			function display()
+			{
+				var strText=document.getElementById("n").value;
+				var strText1=document.getElementById("c").value;
+				var result = 'Name :- '+strText + ' City :-' + strText1;
+				document.getElementById('example').textContent = result;
+             
+			}
+		</script>
+	</head>
+	
+	<body>
+		<h1> Assignment 3 </h1>
+		
+		<h3>Create Two input fields for name and city and take their values and print it together on the page when the user clicks on add button.</h3>
+		
+		<label for="name">Name:</label>
+		<input type="text" id="n" name="name"><br><br>
+		
+		<label for="city">City:</label>
+		<input type="text" id="c" name="city"><br><br>
+		
+		
+		<button type="button"  onclick=display()>Submit</button> <br>
+		<br>
+		
+		<span id="example"></span>
+		
+	</body>
+</html>
+	
